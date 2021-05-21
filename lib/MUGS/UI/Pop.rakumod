@@ -1,4 +1,13 @@
-unit class MUGS::UI::Pop:ver<0.0.1>;
+unit module MUGS::UI::Pop:ver<0.0.1>;
+
+use MUGS::UI;
+
+
+# Base class for Pop game UIs
+class Game is MUGS::UI::Game {
+    method ui-type() { 'Pop' }
+}
+
 
 
 =begin pod
