@@ -1,6 +1,7 @@
 # ABSTRACT: Core logic to set up and run a Pop game
 
-# XXXX: use Pop essential app modules here
+use Pop;
+use Pop::Graphics;
 
 use MUGS::Core;
 use MUGS::App::LocalUI;
@@ -21,12 +22,13 @@ class MUGS::App::Pop is MUGS::App::LocalUI {
     #| Initialize the overall MUGS client app
     method initialize() {
         callsame;
-        # XXXX: Extend to initialize toolkit and Pop-specific globals
+        Pop.new(:title('MUGS'));
     }
 
     #| Shut down the overall MUGS client app (as cleanly as possible)
     method shutdown() {
-        # XXXX: Extend to stop Pop
+        Pop.stop;
+        Pop.destroy;
         callsame;
     }
 
