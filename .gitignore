@@ -13,3 +13,9 @@ node_modules/
 # IDE files
 /.idea
 *.iml
+
+# Generated files
+/*.html
+/docs/*.html
+/docs/*/*.html
+/docs/*/*.dot.svg
