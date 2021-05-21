@@ -1,0 +1,15 @@
+# Caches
+.precomp/
+node_modules/
+
+# Packages
+/sdist/
+/MUGS-UI-Pop-*
+
+# Backup files
+*~
+*.bak
+
+# IDE files
+/.idea
+*.iml
