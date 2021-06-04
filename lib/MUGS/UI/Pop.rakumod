@@ -1,4 +1,6 @@
-unit module MUGS::UI::Pop:ver<0.0.1>;
+# ABSTRACT: Pop/SDL UIs for MUGS, including App and game UIs
+
+unit module MUGS::UI::Pop:auth<zef:japhb>:ver<0.1.2>;
 
 use MUGS::UI;
 
