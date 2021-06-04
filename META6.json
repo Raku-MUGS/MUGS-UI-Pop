@@ -1,17 +1,23 @@
 {
+  "auth": "zef:japhb",
   "authors": [
     "Geoffrey Broadwell"
   ],
   "build-depends": [
   ],
   "depends": [
+    "MUGS::Core:ver<0.1.2>",
+    "MUGS::Games:ver<0.1.2>",
+    "Pop"
   ],
-  "description": "blah blah blah",
+  "description": "Pop/SDL UI for MUGS, including App and game UIs",
   "license": "Artistic-2.0",
   "name": "MUGS::UI::Pop",
   "perl": "6.d",
   "provides": {
-    "MUGS::UI::Pop": "lib/MUGS/UI/Pop.rakumod"
+    "MUGS::App::Pop": "lib/MUGS/App/Pop.rakumod",
+    "MUGS::UI::Pop": "lib/MUGS/UI/Pop.rakumod",
+    "MUGS::UI::Pop::Game::PFX": "lib/MUGS/UI/Pop/Game/PFX.rakumod"
   },
   "resources": [
   ],
@@ -20,5 +26,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.0.1"
+  "version": "0.1.2"
 }
