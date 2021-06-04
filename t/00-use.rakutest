@@ -11,6 +11,8 @@ use MUGS::Games:ver<0.1.2>;
 use MUGS::UI::Pop;
 use MUGS::App::Pop Empty;
 
+use MUGS::UI::Pop::Game::PFX;
+
 
 pass "all modules loaded successfully";
 
