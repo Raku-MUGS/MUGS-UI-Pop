@@ -1,4 +1,5 @@
 Revision history for MUGS-UI-Pop
 
-{{$NEXT}}
-    - Initial version
+0.1.3  *WIP*
+  - Created as part of "Create a UI" guide:
+    https://github.com/Raku-MUGS/MUGS/blob/main/docs/howto/create-a-ui.md
